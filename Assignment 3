@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Complex Table</title>
+    <style>
+        menu{
+            color: blue;
+            margin-left: 7%;
+        }
+        }
+        table th{
+            color: black;
+        }
+        table{
+            background-color: yellow;
+            color: black;
+            border: 2px red;}
+    </style>
+    
+</head>
+<body>
+    <table border="1">
+            <menu>Restaurant Menu</menu>
+        <tr>
+            <th rowspan="2">Type</th>
+            <th rowspan="2">Dish Name</th>
+            <th colspan="2">Option</th>
+        </tr>
+        <tr>
+            <th>Half</th>
+            <th>Full</th>
+            
+        </tr>
+        <tr>
+            <td rowspan="4">Non Veg spl items</td>
+            <td>chicken grill </td>
+            <td>150/-</td>
+            <td>360-</td>
+        </tr>
+        <tr>
+            <td>prawn tandoori</td>
+            <td>160/-</td>
+            <td>380/-</td>
+        </tr>
+        <tr>
+            <td>Arabian chicken kebab</td>
+            <td>170/-</td>
+            <td>430/-</td>
+        </tr>
+        <tr>
+            <td>fish fingers</td>
+            <td>230/-</td>
+            <td>430/-</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Veg spl items</td>
+            <td>Shahi Paneer</td>
+            <td>200/-</td>
+            <td>350/-</td>
+        </tr>
+        <tr>
+            <td>paneer tikka</td>
+            <td>80-</td>
+            <td>160/-</td>
+        </tr>
+        <tr>
+            <td>gobi manchurian</td>
+            <td>70/-</td>
+            <td>140/-</td>
+        </tr>
+        </table>
+</body>
+</html>
